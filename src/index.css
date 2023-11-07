@@ -1,0 +1,58 @@
+body {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.loginForm {
+  background-color: #ffffff;
+  border: 2px solid teal;
+  border-radius: 5px;
+  width: 300px;
+  padding: 20px;
+}
+
+.loginForm label {
+  font-weight: bold;
+}
+
+.loginForm input {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid teal;
+  border-radius: 10px;
+}
+
+.loginForm button {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.emailMainDiv {
+  display: flex;
+  flex-direction: column;
+}
+.apierrordiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
